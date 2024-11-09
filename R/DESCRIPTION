@@ -1,0 +1,17 @@
+Package: OptimisationDuPorteFeuille
+Type: Package
+Title: Optimisation du portefeuille
+Version: 0.1.0
+Author: Noumbo Franck
+Maintainer: noumbofranck75@gmail.com
+Description: Un package pour l'optimisation de portefeuilles financiers. Ce package permet d'optimiser un portefeuille d'actifs en utilisant une fonction objectif quadratique.
+License: MIT + file LICENSE
+Imports:
+  ggplot2,   # Dépendance pour les graphiques
+  quadprog,  # Dépendance pour l'optimisation quadratique
+  stats      # Package de base pour les statistiques
+Suggests:
+  testthat   # Package suggéré pour les tests unitaires
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+
